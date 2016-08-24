@@ -19,6 +19,10 @@ Public Module BundleConfig
                   "~/Scripts/bootstrap.js",
                   "~/Scripts/respond.js"))
 
+        bundles.Add(New ScriptBundle("~/bundles/bootstrapdatetimepicker").Include(
+                    "~/Scripts/moment.js",
+                    "~/Scripts/bootstrap-datetimepicker.js"))
+
         bundles.Add(New StyleBundle("~/Content/css").Include(
                   "~/Content/bootstrap.css",
                   "~/Content/site.css"))
