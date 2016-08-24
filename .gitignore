@@ -243,3 +243,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+VbDemoMyMGM/VbDemoMyMGM.vbproj
+VbDemoMyMGM/My Project/PublishProfiles/mymgm.pubxml
