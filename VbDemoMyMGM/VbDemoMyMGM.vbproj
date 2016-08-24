@@ -55,6 +55,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -209,11 +211,13 @@
     <Compile Include="App_Start\WebApiConfig.vb" />
     <Compile Include="Controllers\AccountController.vb" />
     <Compile Include="Controllers\EventsController.vb" />
+    <Compile Include="Controllers\LocalEventsController.vb" />
     <Compile Include="Controllers\ManageController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.vb" />
+    <Compile Include="Models\LocalEvent.vb" />
     <Compile Include="Models\IdentityModels.vb" />
     <Compile Include="Models\ManageViewModels.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -371,6 +375,11 @@
     <Content Include="Views\Shared\Lockout.vbhtml" />
     <Content Include="Views\Shared\_LoginPartial.vbhtml" />
     <Content Include="Views\Events\Index.vbhtml" />
+    <Content Include="Views\LocalEvents\Create.vbhtml" />
+    <Content Include="Views\LocalEvents\Delete.vbhtml" />
+    <Content Include="Views\LocalEvents\Details.vbhtml" />
+    <Content Include="Views\LocalEvents\Edit.vbhtml" />
+    <Content Include="Views\LocalEvents\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
