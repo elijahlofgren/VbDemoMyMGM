@@ -245,3 +245,4 @@ ModelManifest.xml
 .fake/
 VbDemoMyMGM/VbDemoMyMGM.vbproj
 VbDemoMyMGM/My Project/PublishProfiles/mymgm.pubxml
+VbDemoMyMGM/Web.Release.config
