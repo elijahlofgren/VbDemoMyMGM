@@ -25,6 +25,8 @@ End Section
                     <img src="http://webthumbnail.org/api/?width=250&height=250&screen=1280&url=#:Url#"
                          width="250" height="250" />
                 </a>
+                <iframe src="//www.google.com/maps/embed/v1/place?q=#:Address#&zoom=13
+      &key=AIzaSyBSC_c8irpYHCkIoQ5BUeLrDlGNOahbG1Q"></iframe>
             </div>
             <h3><a href="#:Url#" target="_blank">#:Title#</a></h3>
             <p>#:Description#</p>
