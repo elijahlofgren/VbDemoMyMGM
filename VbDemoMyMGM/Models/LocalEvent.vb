@@ -5,7 +5,10 @@ Public Class LocalEvent
     Public Property Title() As String
     Public Property StartDate() As Date
     Public Property Description() As String
+
     Public Property Url() As String
+    Public Property Address() As String
+    Public Property Category() As String
 End Class
 
 Public Class LocalEventDBContext

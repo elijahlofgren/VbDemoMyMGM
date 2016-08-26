@@ -246,6 +246,15 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608241216016_InitialCreate.Designer.vb">
+      <DependentUpon>201608241216016_InitialCreate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608241216016_InitialCreate.vb" />
+    <Compile Include="Migrations\201608260122194_AddEventAddressCategory.Designer.vb">
+      <DependentUpon>201608260122194_AddEventAddressCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608260122194_AddEventAddressCategory.vb" />
+    <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="Models\AccountViewModels.vb" />
     <Compile Include="Models\LocalEvent.vb" />
     <Compile Include="Models\IdentityModels.vb" />
@@ -269,6 +278,12 @@
     <Compile Include="Startup.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201608241216016_InitialCreate.resx">
+      <DependentUpon>201608241216016_InitialCreate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608260122194_AddEventAddressCategory.resx">
+      <DependentUpon>201608260122194_AddEventAddressCategory.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>

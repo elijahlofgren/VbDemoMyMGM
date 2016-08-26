@@ -41,7 +41,7 @@ Namespace Controllers
         'more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
-        Function Create(<Bind(Include:="ID,Title,StartDate,Description,Url")> ByVal localEvent As LocalEvent) As ActionResult
+        Function Create(<Bind(Include:="ID,Title,StartDate,Description,Url,Address,Category")> ByVal localEvent As LocalEvent) As ActionResult
             If ModelState.IsValid Then
                 db.LocalEvents.Add(localEvent)
                 db.SaveChanges()
@@ -67,7 +67,7 @@ Namespace Controllers
         'more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         <HttpPost()>
         <ValidateAntiForgeryToken()>
-        Function Edit(<Bind(Include:="ID,Title,StartDate,Description,Url")> ByVal localEvent As LocalEvent) As ActionResult
+        Function Edit(<Bind(Include:="ID,Title,StartDate,Description,Url,Address,Category")> ByVal localEvent As LocalEvent) As ActionResult
             If ModelState.IsValid Then
                 db.Entry(localEvent).State = EntityState.Modified
                 db.SaveChanges()
