@@ -23,9 +23,18 @@ Public Module BundleConfig
                     "~/Scripts/moment.js",
                     "~/Scripts/bootstrap-datetimepicker.js"))
 
+        bundles.Add(New ScriptBundle("~/bundles/kendocore").Include(
+                    "~/Scripts/kendo/2016.2.714/kendo.ui.core.min.js"))
+
         bundles.Add(New StyleBundle("~/Content/css").Include(
                   "~/Content/bootstrap.css",
                   "~/Content/site.css"))
+
+        bundles.Add(New StyleBundle("~/Content/kendocss").Include(
+                  "~/Content/kendo/2016.2.714/kendo.common.min.css",
+                  "~/Content/kendo/2016.2.714/kendo.silver.min.css"))
+
+
     End Sub
 End Module
 
