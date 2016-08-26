@@ -39,7 +39,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Made with <span style="color:red">&hearts;</span> in Montgomery, AL by <a href="http://twitter.com/elijahlofgren" target="_blank">Elijah Lofgren</a></p>
+            <p>Made with <span style="color:red">&hearts;</span> in Montgomery, AL by <a href="http://twitter.com/elijahlofgren" target="_blank">Elijah Lofgren</a></p>
         </footer>
     </div>
 

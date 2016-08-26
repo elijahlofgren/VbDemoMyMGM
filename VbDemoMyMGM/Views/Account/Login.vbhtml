@@ -10,14 +10,14 @@ End Code
             @Using Html.BeginForm("Login", "Account", New With { .ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, New With {.class = "form-horizontal", .role = "form"})
                 @Html.AntiForgeryToken()
                 @<text>
-                <h4>Use a local account to log in.</h4>
+                <h4>Log in with your username and password below:</h4>
                 <hr />
                 @Html.ValidationSummary(True, "", New With {.class = "text-danger"})
                 <div class="form-group">
-                    @Html.LabelFor(Function(m) m.Email, New With {.class = "col-md-2 control-label"})
+                    @Html.LabelFor(Function(m) m.UserName, New With {.class = "col-md-2 control-label"})
                     <div class="col-md-10">
-                        @Html.TextBoxFor(Function(m) m.Email, New With {.class = "form-control"})
-                        @Html.ValidationMessageFor(Function(m) m.Email, "", New With {.class = "text-danger"})
+                        @Html.TextBoxFor(Function(m) m.UserName, New With {.class = "form-control"})
+                        @Html.ValidationMessageFor(Function(m) m.UserName, "", New With {.class = "text-danger"})
                     </div>
                 </div>
                 <div class="form-group">
