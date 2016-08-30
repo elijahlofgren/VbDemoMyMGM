@@ -82,7 +82,8 @@ End Section*@
 <script src="/app/bower_components/restangular/dist/restangular.min.js"></script>
 
 <script src="/app/app.js"></script>
-<script src="/app/home/home.js"></script>
+<script src="/app/data/local_event.service.js"></script>
+<script src="/app/home/home.controller.js"></script>
 <script src="/app/view1/view1.js"></script>
 <script src="/app/view2/view2.js"></script>
 <script src="/app/components/version/version.js"></script>

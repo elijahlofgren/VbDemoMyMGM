@@ -8,7 +8,7 @@ describe('myApp.home module', function() {
 
     it('should ....', inject(function($controller) {
       //spec body
-      var homeCtrl = $controller('HomeCtrl');
+      var homeCtrl = $controller('HomeController');
       expect(homeCtrl).toBeDefined();
     }));
 

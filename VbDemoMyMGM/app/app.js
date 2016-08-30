@@ -4,6 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'restangular',
+  'LocalEventService',
   'myApp.home',
   'myApp.view1',
   'myApp.view2',

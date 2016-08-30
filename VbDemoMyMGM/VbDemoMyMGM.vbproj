@@ -490,10 +490,11 @@
     <Content Include="app\components\version\version-directive_test.js" />
     <Content Include="app\components\version\version.js" />
     <Content Include="app\components\version\version_test.js" />
+    <Content Include="app\data\local_event.service.js" />
     <Content Include="app\index-async.html" />
     <Content Include="app\index.html" />
     <Content Include="app\home\home.html" />
-    <Content Include="app\home\home.js" />
+    <Content Include="app\home\home.controller.js" />
     <Content Include="app\home\home_test.js" />
     <Content Include="app\view1\view1.html" />
     <Content Include="app\view1\view1.js" />
