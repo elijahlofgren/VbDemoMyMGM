@@ -1,17 +1,20 @@
 <h2>Events</h2>
-<div ng-repeat="localEvent in homeCtrl.localEvents track by localEvent.ID">
-    <div class="event">
-        <div style="float:right;">
-            <a href="{{localEvent.Url}}" target="_blank">
-                <img src="http://webthumbnail.org/api/?width=250&height=250&screen=1280&url={{localEvent.Url}}" width="250" height="250"
-                />
-            </a>
+<div class="row">
+    <div ng-repeat="localEvent in homeCtrl.localEvents track by localEvent.ID">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-block">
+                <h4 class="card-title">{{localEvent.Title}}</h4>
+                <h6 class="card-subtitle text-muted">Date: {{localEvent.StartDate}}</h6>
+            </div>
+            <img src="http://webthumbnail.org/api/?width=250&height=250&screen=1280&url={{localEvent.Url}}" alt="Card image">
             <iframe ng-src="{{ 'https://www.google.com/maps/embed/v1/place?q=' + localEvent.Address +
                 '&zoom=13&key=AIzaSyBSC_c8irpYHCkIoQ5BUeLrDlGNOahbG1Q' }}"></iframe>
+            <div class="card-block">
+                <p class="card-text">{{localEvent.Description}}</p>
+                <a href="{{localEvent.Url}}" target="_blank" class="btn btn-primary">Read More...</a>
+            </div>
         </div>
-        <h3><a href="{{localEvent.Url}}" target="_blank">{{localEvent.Title}}</a></h3>
-        <p>{{localEvent.Description}}</p>
-        <p>Date: {{localEvent.StartDate}}</p>
-        <div style="clear:both"></div>
     </div>
+</div>
 </div>

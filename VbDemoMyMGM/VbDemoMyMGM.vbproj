@@ -310,6 +310,10 @@
     <Content Include="app\bower_components\angular\angular.js" />
     <Content Include="app\bower_components\angular\angular.min.js" />
     <Content Include="app\bower_components\angular\index.js" />
+    <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="app\bower_components\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="app\bower_components\bootstrap\dist\js\bootstrap.min.js" />
     <Content Include="app\bower_components\html5-boilerplate\.gitattributes" />
     <Content Include="app\bower_components\html5-boilerplate\.gitignore" />
     <Content Include="app\bower_components\html5-boilerplate\dist\.gitattributes" />
@@ -353,6 +357,11 @@
     <Content Include="app\bower_components\html5-boilerplate\src\tile.png" />
     <Content Include="app\bower_components\html5-boilerplate\test\file_content.js" />
     <Content Include="app\bower_components\html5-boilerplate\test\file_existence.js" />
+    <Content Include="app\bower_components\jquery\dist\core.js" />
+    <Content Include="app\bower_components\jquery\dist\jquery.js" />
+    <Content Include="app\bower_components\jquery\dist\jquery.min.js" />
+    <Content Include="app\bower_components\jquery\dist\jquery.slim.js" />
+    <Content Include="app\bower_components\jquery\dist\jquery.slim.min.js" />
     <Content Include="app\bower_components\lodash\.gitattributes" />
     <Content Include="app\bower_components\lodash\.gitignore" />
     <Content Include="app\bower_components\lodash\.markdown-doctest-setup.js" />
@@ -487,6 +496,16 @@
     <Content Include="app\bower_components\restangular\karma.underscore.conf.js" />
     <Content Include="app\bower_components\restangular\src\restangular.js" />
     <Content Include="app\bower_components\restangular\test\restangularSpec.js" />
+    <Content Include="app\bower_components\tether\dist\css\tether-theme-arrows-dark.css" />
+    <Content Include="app\bower_components\tether\dist\css\tether-theme-arrows-dark.min.css" />
+    <Content Include="app\bower_components\tether\dist\css\tether-theme-arrows.css" />
+    <Content Include="app\bower_components\tether\dist\css\tether-theme-arrows.min.css" />
+    <Content Include="app\bower_components\tether\dist\css\tether-theme-basic.css" />
+    <Content Include="app\bower_components\tether\dist\css\tether-theme-basic.min.css" />
+    <Content Include="app\bower_components\tether\dist\css\tether.css" />
+    <Content Include="app\bower_components\tether\dist\css\tether.min.css" />
+    <Content Include="app\bower_components\tether\dist\js\tether.js" />
+    <Content Include="app\bower_components\tether\dist\js\tether.min.js" />
     <Content Include="app\components\version\interpolate-filter.js" />
     <Content Include="app\components\version\interpolate-filter_test.js" />
     <Content Include="app\components\version\version-directive.js" />
@@ -681,6 +700,10 @@
     <Content Include="app\bower_components\angular-sanitize\LICENSE.md" />
     <Content Include="app\bower_components\angular-sanitize\package.json" />
     <Content Include="app\bower_components\angular-sanitize\README.md" />
+    <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="app\bower_components\jquery\dist\jquery.min.map" />
+    <Content Include="app\bower_components\jquery\dist\jquery.slim.min.map" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
