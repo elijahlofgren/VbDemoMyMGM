@@ -314,6 +314,9 @@
     <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.min.css" />
     <Content Include="app\bower_components\bootstrap\dist\js\bootstrap.js" />
     <Content Include="app\bower_components\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="app\bower_components\components-font-awesome\css\font-awesome.css" />
+    <Content Include="app\bower_components\components-font-awesome\css\font-awesome.min.css" />
+    <Content Include="app\bower_components\components-font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="app\bower_components\html5-boilerplate\.gitattributes" />
     <Content Include="app\bower_components\html5-boilerplate\.gitignore" />
     <Content Include="app\bower_components\html5-boilerplate\dist\.gitattributes" />
@@ -704,6 +707,12 @@
     <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.min.css.map" />
     <Content Include="app\bower_components\jquery\dist\jquery.min.map" />
     <Content Include="app\bower_components\jquery\dist\jquery.slim.min.map" />
+    <Content Include="app\bower_components\components-font-awesome\css\font-awesome.css.map" />
+    <Content Include="app\bower_components\components-font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="app\bower_components\components-font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="app\bower_components\components-font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="app\bower_components\components-font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="app\bower_components\components-font-awesome\fonts\FontAwesome.otf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

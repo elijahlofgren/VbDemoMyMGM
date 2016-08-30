@@ -8,6 +8,7 @@
     <!-- kendo css -->
     @*@Styles.Render("~/Content/kendocss")*@
     @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="/app/bower_components/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/app/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/app/bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="/app/bower_components/html5-boilerplate/dist/css/main.css">
