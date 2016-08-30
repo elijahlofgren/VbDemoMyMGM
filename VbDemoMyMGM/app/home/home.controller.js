@@ -19,7 +19,7 @@ angular.module('myApp.home', ['ngRoute', 'LocalEventService'])
         function activate() {
             loadEvents();
         }
-        
+
         function loadEvents() {
             LocalEventService.getAllEvents().then(function (response) {
 
