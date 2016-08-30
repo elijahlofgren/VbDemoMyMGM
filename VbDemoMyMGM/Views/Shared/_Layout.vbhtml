@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,10 @@
     <!-- kendo css -->
     @Styles.Render("~/Content/kendocss")
     @Scripts.Render("~/bundles/modernizr")
-
+    <link rel="stylesheet" href="/app/bower_components/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="/app/bower_components/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="/app/app.css">
+    <script src="/app/bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
     @Scripts.Render("~/bundles/jquery")
