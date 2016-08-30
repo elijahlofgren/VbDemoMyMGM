@@ -4,66 +4,12 @@ End Code
 
 @*@Section Scripts
     @Scripts.Render("~/bundles/bootstrapdatetimepicker")
-    @Scripts.Render("~/bundles/kendocore")
 End Section*@
 
 <div class="jumbotron">
     <h1>Montgomery Events</h1>
     <p class="lead">Montgomery has a variety of interesting events. Browse them below or submit your own.</p>
 </div>
-
-<!-- <div class="row">
-    <h2>Upcoming events</h2>
-
-    <div id="listView"></div>
-    
-    <script type="text/x-kendo-template" id="template">
-        <div class="event">
-            <div style="float:right;">
-                <a href="#:Url#" target="_blank">
-                    <img src="http://webthumbnail.org/api/?width=250&height=250&screen=1280&url=#:Url#"
-                         width="250" height="250" />
-                </a>
-                <iframe src="//www.google.com/maps/embed/v1/place?q=#:Address#&zoom=13
-      &key=AIzaSyBSC_c8irpYHCkIoQ5BUeLrDlGNOahbG1Q"></iframe>
-            </div>
-            <h3><a href="#:Url#" target="_blank">#:Title#</a></h3>
-            <p>#:Description#</p>
-            <p>Date: #:StartDate#</p>
-            <div style="clear:both"></div>
-        </div>
-    </script>
-
-    <script>
-        $(function () {
-            var dataSource = new kendo.data.DataSource({
-                sort: { field: "StartDate", dir: "asc" },
-                schema: {
-                    model: {
-                        fields: {
-                            Title: { type: "string" },
-                            StartDate: { type: "date" }
-                        }
-                    }
-                },
-                transport: {
-                    read: {
-                        url: "/api/localeventsapi",
-                        dataType: "json"
-                    }
-                }
-            });
-            $("#listView").kendoListView({
-                dataSource: dataSource,
-                template: kendo.template($("#template").html())
-            });
-        });
-    </script>
-
-</div>
-    
-    -->
-
 @*<ul class="menu">
     <li><a href="#!/view1">view1</a></li>
     <li><a href="#!/view2">view2</a></li>
