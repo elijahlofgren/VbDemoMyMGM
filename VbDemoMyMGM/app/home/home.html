@@ -1,4 +1,19 @@
-<p>This is the partial for home.</p>
-<span>{{homeCtrl.hello()}}</span>
+<h2>Events</h2>
+<div ng-repeat="localEvent in homeCtrl.localEvents track by localEvent.ID">
+    <div>{{localEvent.Title}}</div>
 
-{{ 'Current version is v%VERSION%.' | interpolate }}
+    <div class="event">
+        <div style="float:right;">
+            <a href="{{localEvent.Url}}" target="_blank">
+                <img src="http://webthumbnail.org/api/?width=250&height=250&screen=1280&url={{localEvent.Url}}" width="250" height="250"
+                />
+            </a>
+            <iframe ng-src="{{ 'https://www.google.com/maps/embed/v1/place?q=' + localEvent.Address +
+                '&zoom=13&key=AIzaSyBSC_c8irpYHCkIoQ5BUeLrDlGNOahbG1Q' }}"></iframe>
+        </div>
+        <h3><a href="{{localEvent.Url}}" target="_blank">{{localEvent.Title}}</a></h3>
+        <p>{{localEvent.Description}}</p>
+        <p>Date: {{localEvent.StartDate}}</p>
+        <div style="clear:both"></div>
+    </div>
+</div>

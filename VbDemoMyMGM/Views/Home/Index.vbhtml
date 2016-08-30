@@ -78,6 +78,7 @@ End Section*@
 -->
 <script src="/app/bower_components/angular/angular.js"></script>
 <script src="/app/bower_components/angular-route/angular-route.js"></script>
+<script src="/app/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
 <script src="/app/bower_components/lodash/dist/lodash.min.js"></script>
 <script src="/app/bower_components/restangular/dist/restangular.min.js"></script>
 

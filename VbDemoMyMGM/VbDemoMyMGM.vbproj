@@ -303,6 +303,9 @@
     <Content Include="app\bower_components\angular-route\angular-route.js" />
     <Content Include="app\bower_components\angular-route\angular-route.min.js" />
     <Content Include="app\bower_components\angular-route\index.js" />
+    <Content Include="app\bower_components\angular-sanitize\angular-sanitize.js" />
+    <Content Include="app\bower_components\angular-sanitize\angular-sanitize.min.js" />
+    <Content Include="app\bower_components\angular-sanitize\index.js" />
     <Content Include="app\bower_components\angular\angular-csp.css" />
     <Content Include="app\bower_components\angular\angular.js" />
     <Content Include="app\bower_components\angular\angular.min.js" />
@@ -836,6 +839,12 @@
     <Content Include="app\bower_components\restangular\license.md" />
     <Content Include="app\bower_components\restangular\package.json" />
     <Content Include="app\bower_components\restangular\README.md" />
+    <Content Include="app\bower_components\angular-sanitize\.bower.json" />
+    <Content Include="app\bower_components\angular-sanitize\angular-sanitize.min.js.map" />
+    <Content Include="app\bower_components\angular-sanitize\bower.json" />
+    <Content Include="app\bower_components\angular-sanitize\LICENSE.md" />
+    <Content Include="app\bower_components\angular-sanitize\package.json" />
+    <Content Include="app\bower_components\angular-sanitize\README.md" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

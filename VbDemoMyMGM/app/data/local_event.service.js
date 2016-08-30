@@ -1,6 +1,10 @@
-﻿angular.module('LocalEventService', [])
-.service('LocalEventService', function () {
-    this.hello = function () {
-        return 'hello world from service!';
-    }
-});
+﻿'use strict';
+
+angular.module('LocalEventService', ['restangular'])
+    .service('LocalEventService', function (Restangular) {
+
+        this.getAllEvents = function() {
+            return Restangular.one('api').getList('localeventsapi');
+        };
+
+    });

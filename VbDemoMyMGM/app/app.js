@@ -2,16 +2,23 @@
 
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
-  'ngRoute',
-  'restangular',
-  'LocalEventService',
-  'myApp.home',
-  'myApp.view1',
-  'myApp.view2',
-  'myApp.version'
+    'ngRoute',
+    'restangular',
+    'LocalEventService',
+    'myApp.home',
+    'myApp.view1',
+    'myApp.view2',
+    'myApp.version',
+    'ngSanitize'
 ]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
+    config(['$locationProvider', '$routeProvider', '$sceDelegateProvider',
+        function ($locationProvider, $routeProvider, $sceDelegateProvider) {
+            $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/home'});
-}]);
+            $routeProvider.otherwise({ redirectTo: '/home' });
+
+            // White list Google maps to allow embedding Google Maps iframes
+            // Solution found at: http://stackoverflow.com/questions/20049261/sce-trustasresourceurl-globally/24841974#24841974
+            $sceDelegateProvider.resourceUrlWhitelist(['self', 'https://www.google.com/maps/embed/**'])
+
+        }]);
