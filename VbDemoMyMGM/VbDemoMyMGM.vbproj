@@ -292,6 +292,22 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.css" />
+    <Content Include="app\app.js" />
+    <Content Include="app\components\version\interpolate-filter.js" />
+    <Content Include="app\components\version\interpolate-filter_test.js" />
+    <Content Include="app\components\version\version-directive.js" />
+    <Content Include="app\components\version\version-directive_test.js" />
+    <Content Include="app\components\version\version.js" />
+    <Content Include="app\components\version\version_test.js" />
+    <Content Include="app\index-async.html" />
+    <Content Include="app\index.html" />
+    <Content Include="app\view1\view1.html" />
+    <Content Include="app\view1\view1.js" />
+    <Content Include="app\view1\view1_test.js" />
+    <Content Include="app\view2\view2.html" />
+    <Content Include="app\view2\view2.js" />
+    <Content Include="app\view2\view2_test.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
