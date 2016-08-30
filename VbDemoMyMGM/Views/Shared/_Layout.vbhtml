@@ -6,7 +6,7 @@
     <title>@ViewBag.Title - MyMGM</title>
     @Styles.Render("~/Content/css")
     <!-- kendo css -->
-    @Styles.Render("~/Content/kendocss")
+    @*@Styles.Render("~/Content/kendocss")*@
     @Scripts.Render("~/bundles/modernizr")
     <link rel="stylesheet" href="/app/bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="/app/bower_components/html5-boilerplate/dist/css/main.css">
