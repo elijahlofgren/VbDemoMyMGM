@@ -1,13 +1,13 @@
 <h2>Events</h2>
 <div class="row">
     <div ng-repeat="localEvent in homeCtrl.localEvents track by localEvent.ID">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
         <div class="card">
             <div class="card-block">
-                <h4 class="card-title">{{localEvent.Title}}</h4>
+                 <a href="{{localEvent.Url}}" target="_blank"><h4 class="card-title">{{localEvent.Title}}</h4></a>
                 <h6 class="card-subtitle text-muted">Date: {{localEvent.StartDate}}</h6>
             </div>
-            <img src="http://webthumbnail.org/api/?width=250&height=250&screen=1280&url={{localEvent.Url}}" alt="Card image">
+             <a href="{{localEvent.Url}}" target="_blank"><img src="http://webthumbnail.org/api/?width=250&height=250&screen=1280&url={{localEvent.Url}}" alt="Card image"></a>
             <iframe ng-src="{{ 'https://www.google.com/maps/embed/v1/place?q=' + localEvent.Address +
                 '&zoom=13&key=AIzaSyBSC_c8irpYHCkIoQ5BUeLrDlGNOahbG1Q' }}"></iframe>
             <div class="card-block">
