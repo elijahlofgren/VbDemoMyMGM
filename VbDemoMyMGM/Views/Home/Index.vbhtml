@@ -8,7 +8,7 @@ End Section*@
 
 <div class="jumbotron">
     <h1>Montgomery Events</h1>
-    <p class="lead">Montgomery has a variety of interesting events. Browse them below or submit your own.</p>
+    <p class="lead">Montgomery has a variety of interesting events. Browse them below or submit your own (coming soon).</p>
 </div>
 @*<ul class="menu">
     <li><a href="#!/view1">view1</a></li>
