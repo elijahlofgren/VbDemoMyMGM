@@ -17,8 +17,8 @@ angular.module('myApp', [
 
             $routeProvider.otherwise({ redirectTo: '/home' });
 
-            // White list Google maps to allow embedding Google Maps iframes
-            // Solution found at: http://stackoverflow.com/questions/20049261/sce-trustasresourceurl-globally/24841974#24841974
+            // Whitelist Google maps to allow embedding Google Maps iframes
+            // See: http://stackoverflow.com/questions/20049261/sce-trustasresourceurl-globally/24841974#24841974
             $sceDelegateProvider.resourceUrlWhitelist(['self', 'https://www.google.com/maps/embed/**'])
 
         }]);
