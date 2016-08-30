@@ -38,13 +38,16 @@ function HomeController($window, LocalEventService) {
         // Note: Useful reference on Google Calendar links is here: http://stackoverflow.com/a/21653600/908677
         var url = 'https://www.google.com/calendar/render?action=TEMPLATE&text=' +
             encodeURIComponent(localEvent.Title) +
+            '&dates=' + startDateFormatted + '/' + endDateFormatted +
             '&details=' + encodeURIComponent(localEvent.Description + ' For more details, see ' + localEvent.Url) +
             '&location=' + encodeURIComponent(localEvent.Address) + '&sf=true&output=xml' +
             '&ctz=America/Chicago';
         $window.open(url);
     }
+
     function dateToGoogleCalendarFormat(date) {
         // Conversion from http://stackoverflow.com/questions/10488831/link-to-add-to-google-calendar#comment43819710_21653600
+        return date.toISOString().replace(/-|:|\.\d\d\d/g, "");
     }
 
     function loadEvents() {
