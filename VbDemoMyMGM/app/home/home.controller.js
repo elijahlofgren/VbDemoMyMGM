@@ -22,8 +22,6 @@ angular.module('myApp.home', ['ngRoute', 'LocalEventService'])
 
         function loadEvents() {
             LocalEventService.getAllEvents().then(function (response) {
-
-
                 vm.localEvents = _.sortBy(response, 'StartDate');
             });
         }
